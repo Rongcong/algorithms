@@ -1,9 +1,6 @@
-// Package main provides ...
 package bubble
 
-import (
 //"fmt"
-)
 
 func sort(arr []int) {
 	for itemCount := len(arr) - 1; ; itemCount-- {

@@ -1,12 +1,14 @@
-// Dijkstra algorithm for undirected weighed graph
-// Pseudo-code: http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Using_a_priority_queue
 package dijkstra
 
+// Dijkstra algorithm for undirected weighed graph
+// Pseudo-code: http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Using_a_priority_queue
+
 import (
-	"github.com/arnauddri/algorithms/data-structures/graph"
-	"github.com/arnauddri/algorithms/data-structures/priority-queue"
+	"github.com/Rongcong/algorithms/data-structures/graph"
+	"github.com/Rongcong/algorithms/data-structures/priority-queue"
 )
 
+// ShortestPath ...
 func ShortestPath(g *graph.UnGraph, source graph.VertexId) map[graph.VertexId]graph.VertexId {
 	visited := make(map[graph.VertexId]bool, g.VerticesCount())
 	dist := make(map[graph.VertexId]int)

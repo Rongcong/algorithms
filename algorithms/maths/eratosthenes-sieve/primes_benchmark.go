@@ -1,10 +1,11 @@
 package primes
 
 import (
-	"code.google.com/p/plotinum/plot"
-	"code.google.com/p/plotinum/plotter"
-	"code.google.com/p/plotinum/plotutil"
 	"testing"
+
+	"github.com/gonum/plot"
+	"github.com/gonum/plot/plotter"
+	"github.com/gonum/plot/plotutil"
 )
 
 func benchmarkGetAllPrimesTo(n int, b *testing.B) {

@@ -2,9 +2,10 @@ package kosaraju
 
 import (
 	"fmt"
-	"github.com/arnauddri/algorithms/algorithms/graphs/dfs"
-	"github.com/arnauddri/algorithms/data-structures/graph"
 	"testing"
+
+	"github.com/Rongcong/algorithms/algorithms/graphs/dfs"
+	"github.com/Rongcong/algorithms/data-structures/graph"
 )
 
 func TestTopologicalSort(t *testing.T) {

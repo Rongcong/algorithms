@@ -8,8 +8,9 @@ import (
 	"strconv"
 )
 
+// GetArrayOfSize ...
 func GetArrayOfSize(n int) []int {
-	p, err := build.Default.Import("github.com/arnauddri/algorithms/algorithms/sorting/utils", "", build.FindOnly)
+	p, err := build.Default.Import("github.com/Rongcong/algorithms/algorithms/sorting/utils", "", build.FindOnly)
 
 	if err != nil {
 		// handle error

@@ -2,8 +2,9 @@ package bubble
 
 import (
 	"fmt"
-	"github.com/arnauddri/algorithms/algorithms/sorting/utils"
 	"testing"
+
+	"github.com/Rongcong/algorithms/algorithms/sorting/utils"
 )
 
 func TestBubbleSort(t *testing.T) {

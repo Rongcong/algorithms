@@ -2,9 +2,10 @@ package kosaraju
 
 import (
 	"fmt"
-	"github.com/arnauddri/algorithms/algorithms/graphs/dfs"
-	"github.com/arnauddri/algorithms/data-structures/graph"
-	"github.com/arnauddri/algorithms/data-structures/stack"
+
+	"github.com/Rongcong/algorithms/algorithms/graphs/dfs"
+	"github.com/Rongcong/algorithms/data-structures/graph"
+	"github.com/Rongcong/algorithms/data-structures/stack"
 )
 
 func Scc(g *graph.DirGraph) []stack.Stack {

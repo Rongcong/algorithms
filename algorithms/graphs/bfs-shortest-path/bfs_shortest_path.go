@@ -1,8 +1,8 @@
 package bfs
 
 import (
-	"github.com/arnauddri/algorithms/algorithms/graphs/bfs"
-	"github.com/arnauddri/algorithms/data-structures/graph"
+	"github.com/Rongcong/algorithms/algorithms/graphs/bfs"
+	"github.com/Rongcong/algorithms/data-structures/graph"
 )
 
 func ShortestPath(g *graph.DirGraph, start graph.VertexId) (dist map[graph.VertexId]int) {

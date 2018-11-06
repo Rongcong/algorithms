@@ -2,8 +2,9 @@ package dijkstra
 
 import (
 	"fmt"
-	"github.com/arnauddri/algorithms/data-structures/graph"
 	"testing"
+
+	"github.com/Rongcong/algorithms/data-structures/graph"
 )
 
 func TestDijkstra(t *testing.T) {

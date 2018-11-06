@@ -1,10 +1,11 @@
 package dfs
 
 import (
-	"github.com/arnauddri/algorithms/data-structures/graph"
-	"github.com/arnauddri/algorithms/data-structures/stack"
+	"github.com/Rongcong/algorithms/data-structures/graph"
+	"github.com/Rongcong/algorithms/data-structures/stack"
 )
 
+// UndirectedDfs ...
 func UndirectedDfs(g *graph.UnGraph, v graph.VertexId, fn func(graph.VertexId)) {
 	s := stack.New()
 	s.Push(v)
@@ -24,6 +25,7 @@ func UndirectedDfs(g *graph.UnGraph, v graph.VertexId, fn func(graph.VertexId)) 
 	}
 }
 
+// DirectedDfs ...
 func DirectedDfs(g *graph.DirGraph, v graph.VertexId, fn func(graph.VertexId)) {
 	s := stack.New()
 	s.Push(v)

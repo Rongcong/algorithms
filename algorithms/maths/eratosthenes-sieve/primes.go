@@ -6,9 +6,9 @@ import (
 
 func getAllPrimesTo(n int) (primes []int) {
 	checked := make([]bool, n)
-	sqrt_n := int(math.Sqrt(float64(n)))
+	sqrtN := int(math.Sqrt(float64(n)))
 
-	for i := 2; i <= sqrt_n; i++ {
+	for i := 2; i <= sqrtN; i++ {
 		if !checked[i] {
 			for j := i * i; j < n; j += i {
 				checked[j] = true

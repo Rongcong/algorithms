@@ -1,8 +1,9 @@
 package strassen
 
 import (
-	"github.com/arnauddri/algorithms/data-structures/matrix"
 	"math"
+
+	"github.com/Rongcong/algorithms/data-structures/matrix"
 )
 
 func Multiply(A *matrix.Matrix, B *matrix.Matrix) *matrix.Matrix {

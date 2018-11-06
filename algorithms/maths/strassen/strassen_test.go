@@ -1,8 +1,9 @@
 package strassen
 
 import (
-	"github.com/arnauddri/algorithms/data-structures/matrix"
 	"testing"
+
+	"github.com/Rongcong/algorithms/data-structures/matrix"
 )
 
 func TestStrassen(t *testing.T) {

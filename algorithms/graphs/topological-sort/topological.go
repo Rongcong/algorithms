@@ -1,10 +1,11 @@
 package topological
 
 import (
-	"github.com/arnauddri/algorithms/data-structures/graph"
-	"github.com/arnauddri/algorithms/data-structures/stack"
+	"github.com/Rongcong/algorithms/data-structures/graph"
+	"github.com/Rongcong/algorithms/data-structures/stack"
 )
 
+// Sort ...
 func Sort(g *graph.DirGraph) *stack.Stack {
 	var visit func(v graph.VertexId)
 	sorted := stack.New()

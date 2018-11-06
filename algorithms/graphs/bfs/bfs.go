@@ -1,9 +1,10 @@
 package bfs
 
 import (
-	"github.com/arnauddri/algorithms/data-structures/graph"
+	"github.com/Rongcong/algorithms/data-structures/graph"
 )
 
+// Bfs ...
 func Bfs(g *graph.DirGraph, start graph.VertexId, fn func(graph.VertexId)) {
 	queue := []graph.VertexId{start}
 	visited := make(map[graph.VertexId]bool)

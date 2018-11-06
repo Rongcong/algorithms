@@ -5,8 +5,9 @@ package ht
 
 import (
 	"errors"
-	"github.com/arnauddri/algorithms/data-structures/linked-list"
 	"math"
+
+	"github.com/Rongcong/algorithms/data-structures/linked-list"
 )
 
 type HashTable struct {

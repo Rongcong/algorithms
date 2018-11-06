@@ -2,8 +2,9 @@ package merge
 
 import (
 	"fmt"
-	"github.com/arnauddri/algorithms/algorithms/sorting/utils"
 	"testing"
+
+	"github.com/Rongcong/algorithms/algorithms/sorting/utils"
 )
 
 func TestMergeSort(t *testing.T) {
